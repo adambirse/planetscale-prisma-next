@@ -9,11 +9,12 @@
     npx prisma migrate dev --name init
     pscale deploy-request create tutorial-db initial-setup
 
-### Making DB changes
+### Starting DB
 
     pscale connect tutorial-db main --port 3309  
-    npx prisma studio
+### Making DB changes
 
+    npx prisma studio
 
 ## References
 
