@@ -18,6 +18,10 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
+        <a href="https://github.com/adambirse/planetscale-prisma-next" className={styles.card}>
+            <h2>This git repo &rarr;</h2>
+          </a>
+
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>NextJS &rarr;</h2>
           </a>
@@ -39,7 +43,7 @@ export default function Home() {
           <div>
             <Link href="/api/posts">
               <h2><a className={styles.card}>
-                Try my api to retrieve posts from the DB &rarr;
+                API to retrieve posts from the DB &rarr;
               </a>
               </h2>
             </Link>
@@ -47,7 +51,7 @@ export default function Home() {
           <div>
             <Link href="/api/users">
               <h2><a className={styles.card}>
-                Try my api to retrieve users from the DB &rarr;
+               API to retrieve users from the DB &rarr;
               </a>
               </h2>
             </Link>
