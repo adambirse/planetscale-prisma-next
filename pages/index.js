@@ -44,6 +44,14 @@ export default function Home() {
               </h2>
             </Link>
           </div>
+          <div>
+            <Link href="/api/users">
+              <h2><a className={styles.card}>
+                Try my api to retrieve users from the DB &rarr;
+              </a>
+              </h2>
+            </Link>
+          </div>
         </div>
       </main>
 
