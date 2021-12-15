@@ -2,7 +2,6 @@
 
 ## Getting started 
 
-
 ### Generating migrations
 
     pscale auth login 
